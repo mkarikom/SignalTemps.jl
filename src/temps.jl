@@ -21,9 +21,3 @@ end
 function gettemps(L,n)
 
 end
-
-function gettargs(row)
-    for r in row
-        println("r")
-    end
-end

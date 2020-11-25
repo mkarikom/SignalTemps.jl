@@ -5,7 +5,7 @@ using LinearAlgebra
 using DataFrames,Query
 using StatsBase, Distributions, Random
 
-export getalpha, gettemps, gettargs
+export getalpha, getbeta, gettemps
 export filterdf,filteravg
 
 include("temps.jl") # calculate interactions
