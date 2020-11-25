@@ -2,10 +2,11 @@ module SignalTemps
 
 using CUDA, Distributed
 using LinearAlgebra
-using DataFrames,CSV
+using DataFrames,Query
 using StatsBase, Distributions, Random
 
-export getTemps
+export getalpha, gettemps, gettargs
+export filterdf,filteravg
 
 include("temps.jl") # calculate interactions
 
