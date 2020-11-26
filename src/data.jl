@@ -2,11 +2,12 @@
 function filterdf(df,colnames)
     filtnames = []
     for cn in colnames
-        if any(occursin.(cn,names(df)))
+        ff = findfirst(n->n==cn,names(df))
+        if !isnothing(ff)
             push!(filtnames,cn)
         end
     end
-    filtnames
+    unique(filtnames)
 end
 
 # get the average over a subset of markers
