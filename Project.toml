@@ -17,6 +17,12 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 UMAP = "c4f8c510-2410-5be4-91d7-4fbaeb39457e"
 
 [compat]
+CUDA = "2.3"
+Distributions = "0.23"
+LightGraphs = "1.3"
+MetaGraphs = "0.6"
+Query = "1"
+UMAP = "0.1"
 julia = "1"
 
 [extras]
