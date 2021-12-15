@@ -1,2 +1,2 @@
 # SignalTemps.jl
-Exponential representation of cell-cell interactions
+Energy representation of cell-cell interactions
