@@ -5,7 +5,7 @@ using LinearAlgebra
 using DataFrames,Query
 using StatsBase, Distributions, Random
 using UMAP
-using LightGraphs,MetaGraphs
+using Graphs,MetaGraphs
 
 export getalpha, getbeta, getkappa, gettemps, safediv, getup, getupavg, groupavg, getgroups
 export filterdf,filteravg,filtersum,umapexpr,sublabels,fplot,filterexpressed
