@@ -1,7 +1,7 @@
 name = "SignalTemps"
 uuid = "9748e082-7d24-4353-af53-8a6c8ccbfb0c"
 authors = ["Matt Karikomi <mattkarikomi@gmail.com> and contributors"]
-version = "0.3.2"
+version = "0.3.1"
 
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
